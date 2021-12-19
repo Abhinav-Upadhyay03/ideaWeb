@@ -58,7 +58,12 @@ To set up this project as a local server, follow these steps :
 ---
 
 ### Screenshots
-
+<p align= "center">
+<img src="https://github.com/Abhinav-Upadhyay03/ideaWeb/blob/main/website/Screenshot%20(13).png"  height="400" />
+<img src="https://github.com/Abhinav-Upadhyay03/ideaWeb/blob/13c4e7d1f170d63b5c40b69284091ad2bb8cba8d/website/Screenshot%20(14).png"  height="400" />
+<img src="https://github.com/Abhinav-Upadhyay03/ideaWeb/blob/13c4e7d1f170d63b5c40b69284091ad2bb8cba8d/website/Screenshot%20(15).png"  height="400" />
+<img src="https://github.com/Abhinav-Upadhyay03/ideaWeb/blob/13c4e7d1f170d63b5c40b69284091ad2bb8cba8d/website/Screenshot%20(16).png"  height="400" />
+</p>
 ---
 
 ### Contributors
