@@ -74,3 +74,8 @@ To set up this project as a local server, follow these steps :
 [Abhinav-Upadhyay03 - Overview](https://github.com/Abhinav-Upadhyay03/)
 
 [anima-regem - Overview](https://github.com/anima-regem)
+
+***
+### Notion page
+[Click here](https://overjoyed-manx-24b.notion.site/ideaWeb-0ff861e1998d4f2ea199a8a2fa1c334c)
+
