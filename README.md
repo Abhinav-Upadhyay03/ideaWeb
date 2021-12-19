@@ -28,13 +28,15 @@ a great use where people are given a space to think and share about the new idea
 
 ### Prequisiites
 
-> python ≥ 3
+>Flask==2.0.0
 >
-> flask
+>Flask_Login==0.5.0
 >
-> flask_sqlalchemy
+>Flask_SQLAlchemy==2.5.1
 >
-> flask_login
+>SQLAlchemy==1.4.11
+>
+>Werkzeug==2.0.1
 
 
 ---
@@ -64,7 +66,8 @@ To set up this project as a local server, follow these steps :
 <img src="https://github.com/Abhinav-Upadhyay03/ideaWeb/blob/13c4e7d1f170d63b5c40b69284091ad2bb8cba8d/website/Screenshot%20(15).png"  height="400" />
 <img src="https://github.com/Abhinav-Upadhyay03/ideaWeb/blob/13c4e7d1f170d63b5c40b69284091ad2bb8cba8d/website/Screenshot%20(16).png"  height="400" />
 </p>
----
+
+***
 
 ### Contributors
 
