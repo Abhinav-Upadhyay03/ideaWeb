@@ -1,4 +1,4 @@
-# IDEAWEB✌
+# ideaWeb✌️
 
 ***ABOUT THE PROJECT***
 
@@ -6,26 +6,63 @@ This is a free online social networking platform where the main theme is to post
 People can share about their ideas or can look at the ideas which are of their interest. Ideaweb completely relies on text alone. This platform can be of
 a great use where people are given a space to think and share about the new ideas without any disturbance.
 
->Technologies used
-***
+---
+
+### Technologies used
+
 - Python flask
+
+
 - HTML
+
+
 - CSS
+
 - Bootstrap
+
+
 - SQLAlchemy
 
->Prequisiites
-***
-- flask_login
-- flask_sqlalchemy
-- flask
 
-***For video demo:***
-[Click here](https://www.youtube.com/channel/UCQuT9T_klzs19Z-LTq6mxPw/featured)
+---
+
+### Prequisiites
+
+> python ≥ 3
+>
+> flask
+>
+> flask_sqlalchemy
+>
+> flask_login
 
 
->Screenshots
-***
-![alt text](https://github.com/Abhinav-Upadhyay03/Flask_tutorial/blob/f8c120f3d585c81843cec6024a9567299f819ab8/website/Screenshot%20(10).png)
-![alt text](https://github.com/Abhinav-Upadhyay03/Flask_tutorial/blob/f8c120f3d585c81843cec6024a9567299f819ab8/website/Screenshot%20(11).png)
-![alt text](https://github.com/Abhinav-Upadhyay03/Flask_tutorial/blob/f8c120f3d585c81843cec6024a9567299f819ab8/website/Screenshot%20(12).png)
+---
+
+### Setting Up
+
+To set up this project as a local server, follow these steps :
+
+`git clone[https://github.com/anima-regem/ideaWeb.git](https://github.com/anima-regem/ideaWeb.git)`
+
+`cd ideaWeb`
+
+`pip install -r requirements.txt`
+
+`python app.py`
+
+---
+
+***Video Demo :*** [Click here](https://www.youtube.com/channel/UCQuT9T_klzs19Z-LTq6mxPw/featured)
+
+---
+
+### Screenshots
+
+---
+
+### Contributors
+
+[Abhinav-Upadhyay03 - Overview](https://github.com/Abhinav-Upadhyay03/)
+
+[anima-regem - Overview](https://github.com/anima-regem)
