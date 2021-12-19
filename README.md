@@ -55,7 +55,7 @@ To set up this project as a local server, follow these steps :
 
 ---
 
-***Video Demo :*** [Click here](https://www.youtube.com/channel/UCQuT9T_klzs19Z-LTq6mxPw/featured)
+***Video Demo :*** [Click here](https://youtu.be/VuwYNTo9gwo)
 
 ---
 
