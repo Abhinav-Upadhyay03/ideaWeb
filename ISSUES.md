@@ -7,4 +7,4 @@
 - There is no ranking mechanism. This can be solved with one like per person and even seperation of ideas according to domains.
 - The ideas are not sorted to different types.
 
-These are some of the issues that must be remedied to make this project better..
+These are some of the issues that must be remedied to make this project better.
