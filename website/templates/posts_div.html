@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+
+
+{% block title %}
+
+{% endblock %}
+
+
+{% block content %}
+    <br>
+    <h1 align="center">{% block header %}<b>i</b>deaWeb{% endblock %}</h1> 
+    <br>
+    <div class="share" align="center">
+        <a href="/create-post">
+            <button type="button" class="btn btn-primary btn-lg">Share an Idea</button>
+        </a>
+    </div>
+    <br>
+    <div id="posts">
+    {% if posts==[] %}
+        <br>
+        <h3 style="text-align:center;">-No posts yet-</h3>
+        <br>
+    {% else %}
+    {% for post in posts %}
+        <div class="card border-dark">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <a href="/posts/{{post.user.username}}" style="text-decoration:none;">{{post.user.username}}</a>
+                {% if user.id == post.author %}
+                <div class="btn-group">
+                    <button type="button" data-bs-toggle="dropdown" class="btn btn-sm btn-primary dropdown-toggle"></button>
+                    <ul class="dropdown-menu">
+                        <li><a href="/delete-post/{{post.id}}" class="dropdown-item">Delete</a></li>
+                    </ul>
+                </div>
+                {% endif %}
+            </div>
+            <div class="card-body shadow-sm" >
+                <div class="card-text">
+                    {{post.text}}
+                    <br />
+                    <br />
+                    
+                    <div class="collapse" id="comments-{{post.id}}">
+                        <div class="card">
+                            <div class="card-body" id="comments-expnded-{{post.id}}">
+                                {% for comment in post.comments %}
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <a href="/posts/{{comment.user.username}}">
+                                                {{comment.user.username}}
+                                            </a>
+                                             : 
+                                            {{comment.text}}
+                                            <div>
+                                                <small class="text-muted">
+                                                    {{comment.date_created}}
+                                                </small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                    <p class="card-text">
+                        {% if post.comments|length > 0%}
+                            <a href="#comments-{{post.id}}" data-bs-toggle="collapse">
+                                <small type="button">View {{post.comments|length}} comment(s)</small>
+                            </a>
+                        {% else %}
+                            <small class="text-muted">Be the first to comment </small>    
+                        {% endif %}
+                    </>
+                    <br>
+                    <div class="like-post">
+                        <b>{{post.likes}} Likes</b>
+                        <a href="/like-post/{{post.id}}" class="btn btn-light">+1</a>
+                    </div>
+                    <form action="/create-comment/{{post.id}}" method="POST" class="input-group mb-3">
+                        <input type="text" name="text" id="text" class="form-control" placeholder="Comment something"/>
+                        <button type="submit" class="btn btn-primary">Comment</button>
+                    </form>
+                </div>
+                <div class="card-footer text-muted">
+                    {{post.date_created}}
+                </div>
+            </div>
+        </div>
+        <br />
+    {% endfor %}
+    {% endif %}
+    </div>
+    {% block footer %}
+    
+    {% endblock %}
+{% endblock %}
